@@ -1,0 +1,139 @@
+.el-divider {
+  background-color: black;
+  height: 3px;
+}
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 18px;
+  opacity: 0.75;
+  line-height: 300px;
+  margin: 0;
+}
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+.el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
+}
+.loogImG {
+  z-index: 9;
+  position: relative;
+  background: #3a3a3a;
+  background: rgba(58, 58, 58, 0.9);
+  cursor: pointer;
+}
+.loopZindex {
+  z-index: 99;
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  font-size: 30px;
+  color: white;
+}
+.queryBox {
+  position: relative;
+  background-color: #fff;
+  padding: 40px 50vh 20px;
+}
+.queryBox .littleBox {
+  background-color: #fff;
+  z-index: 999;
+  width: 200px;
+  height: 90px;
+  position: absolute;
+  top: -90px;
+  left: 482px;
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 90px;
+  text-align: center;
+}
+.figure {
+  position: relative;
+}
+.tag {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #f0a34a;
+  color: white;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: block;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto 180px 100px;
+}
+.card {
+  width: 420px;
+  background-color: #fff;
+  padding: 6px;
+  margin: 10px;
+}
+.text {
+  padding-top: 10px;
+  font-size: 36px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.bgCity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+  min-width: 100vh;
+  height: 500px;
+  background: rgba(240, 163, 74, 0.2) url('../../../assets/images/bgCity.jpg') no-repeat right top;
+  background-size: cover;
+}
+.bgCity div {
+  flex: 1;
+}
+.bgCity .p {
+  color: white;
+  font-size: 20px;
+}
+.banGong {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background: #272727;
+}
+.why {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background: #f7f7f7;
+  padding: 0px;
+  margin: 20px auto;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.allIcon {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 200px;
+  background: #f7f7f7;
+  padding: 0px 190px 0px;
+  margin: -20px 0px 0px;
+}
+.bgPerson {
+  height: 900px;
+  width: 100%;
+}
+.bgPerson img {
+  width: 100%;
+}

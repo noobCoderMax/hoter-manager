@@ -1,0 +1,39 @@
+{
+  "name": "hotel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "core-js": "^3.8.3",
+    "echarts": "^4.1.0",
+    "element-ui": "^2.15.9",
+    "js-cookie": "^3.0.1",
+    "vue": "^2.6.14",
+    "vue-amap": "^0.5.10",
+    "vue-axios": "^3.4.1",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@types/node": "^18.0.6",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "less": "^3.13.1",
+    "less-loader": "^5.0.0",
+    "style-resources-loader": "^1.5.0",
+    "vue-cli-plugin-style-resources-loader": "^0.1.5",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

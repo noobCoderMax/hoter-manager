@@ -1,0 +1,183 @@
+.right {
+    flex: 5;
+    color: #ffffff;
+    background-color:#ffffff;
+    border: 2px solid #e1e2e5;
+
+    .avatar{
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 100px;
+        color: black;
+        background-color:#ffffff;
+        height: 200px;
+        margin: auto 40px;
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            border: 1px solid #999;
+            &:hover {
+                background: rgba(0, 0, 0, 0.6);
+                cursor: pointer;
+            }
+        }
+    
+        strong {
+            display: block;
+            margin: auto 20px;
+            height: 30px;
+            font-size: 30px;
+        }
+    
+        .ident {
+            margin-top: 10px;
+            margin-right: 10px;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            color: #fff;
+            line-height: 40px;
+            font-size: 16px;
+            background-color: #00a0d8;
+            border-radius: 10px;
+        }
+    
+        .changeInfo {
+            margin-top: 10px;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            color: #fff;
+            line-height: 40px;
+            font-size: 16px;
+            background-color: #72e4ba;
+            border-radius: 10px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    
+        .toLogin {
+            position: absolute;
+            right: 30px;
+            height: 100pxs;
+            margin-top: 10px;
+            width: 140px;
+            height: 40px;
+            text-align: center;
+            color: white;
+            line-height: 40px;
+            font-size: 16px;
+            background-color: #00a0d8;
+            border-radius: 10px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .codeSafe {
+        .header {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 50px;
+            strong {
+                color: black;
+                font-size: 30px;
+    
+                i{
+                    color: #23bff2;
+                    font-size: 26px;
+                }
+            }
+            .more {
+                width: 200px;
+                height: 30px;
+                color: black;
+                text-align: center;
+                line-height: 30px;
+                border: 2px solid #999;
+                &:hover{
+                    color: #8bddf8;
+                    border-color: #8bddf8;
+                    cursor: pointer;
+                }
+            }
+    
+        }
+     
+        .items {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin: 20px 60px;
+
+            .item {
+                width: 500px;
+                width: 40%;
+                color: black;
+                margin: 20px;
+                display: flex;
+                justify-content: start;
+                flex-direction: row;
+
+                .i i{  
+                    display: inline-block;
+                    font-size: 100px;
+                    border: 1px solid #00a0d8;
+                    color:  #00a0d8;
+                }
+
+                .r {
+                    display: flex;
+                    justify-content: start;
+                    flex-direction: column;
+                    margin: 0px 36px;
+
+                    strong {
+                        width: 300px;
+                        font-size: 20px;
+                        color: black;
+                        margin-bottom: 5px;
+                    }
+                    
+                    p {
+                        // color: #e8ebe82d;
+                        color: black;
+                        margin-bottom: 5px;
+                    }
+
+                    .btn {
+                        display: flex;
+                        justify-content:start;
+                        margin-top: 10px;
+                        
+                        .el-button--primary{
+                            background: #22a1d6;
+                        }
+
+                        .txt {
+                            margin-left: 6px;
+                            width: 100px;
+                            height: 30px;
+                            text-align: center;
+                            line-height: 30px;
+                            color: #00a1d6;
+                            &:hover{
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+
+}

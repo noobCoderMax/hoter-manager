@@ -1,0 +1,233 @@
+#map {
+  width: 1000px;
+  height: 1000px;
+}
+.info {
+  margin: 10px 200px 0px;
+  background-color: #ebf3fd;
+  color: #29a6fd;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 20px;
+  font-size: 26px;
+}
+.tabs {
+  margin: 20px 200px 0px;
+  height: 100px;
+}
+.tabs .title {
+  font-size: 26px;
+}
+.tabs .mapBox {
+  margin-bottom: 100px;
+}
+.tabs .cards {
+  margin: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tabs .cards .card {
+  width: 30%;
+  height: 130px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+.tabs .cards .card strong {
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+}
+.tabs .cardsF {
+  margin: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tabs .cardsF .card {
+  width: 24%;
+  height: 30px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+.tabs .cardsF .card strong {
+  height: 30px;
+  line-height: 30px;
+}
+.tabs #news {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.tabs #news .new {
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding-bottom: 60px;
+  border-radius: 10px;
+}
+.tabs #news .new .title {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.tabs #news .new .time {
+  margin: 10px auto;
+}
+.tabs #news .new .content {
+  display: block;
+  margin: 10px;
+  line-height: 115%;
+  font-size: 20px;
+}
+.tabs #news .new .link {
+  position: absolute;
+  right: 60px;
+  bottom: 20px;
+  display: block;
+  margin: 10px auto;
+  color: #2471dd;
+}
+.tabs #todays {
+  display: flex;
+  justify-content: start;
+  margin: 10px 60px;
+  flex-wrap: wrap;
+}
+.tabs #todays .today {
+  width: 400px;
+  box-shadow: 4px 4px 4px 0.5;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 30px;
+}
+.tabs #todays .today .time {
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.tabs #todays .today .content {
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.tabs .top {
+  display: flex;
+  justify-content: start;
+}
+.tabs .top .city {
+  background-color: #3767ab;
+  color: #fff;
+  margin: 10px;
+  height: 50px;
+  font-size: 30px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  line-height: 50px;
+}
+.tabs .top .btn {
+  padding-top: 5px;
+  width: 390px;
+  margin: 10px;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+.tabs .top .btn .el-button {
+  margin-left: 10px;
+  height: 36px;
+}
+.tabs #weathers {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.tabs #weathers .weather {
+  background-color: #3767ab;
+  height: 80px;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 10px;
+  padding: 20px 100px;
+  border-radius: 10px;
+  box-shadow: 5px 4px 5px #888888;
+}
+.tabs #weathers .weather .day {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+.tabs #weathers .weather .day strong {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.tabs #weathers .weather .day span {
+  height: 26px;
+  line-height: 26px;
+  font-size: 26px;
+  color: #fff;
+}
+.tabs #weathers .weather .weather1 {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.tabs #weathers .weather .weather1 strong {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.tabs #weathers .weather .weather1 span {
+  height: 26px;
+  line-height: 26px;
+  font-size: 26px;
+  color: #fff;
+}
+.tabs #weathers .weather .wind_direction {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.tabs #weathers .weather .wind_direction strong {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.tabs #weathers .weather .wind_direction span {
+  height: 26px;
+  line-height: 26px;
+  font-size: 26px;
+  color: #fff;
+}
+.tabs #weathers .weather .wind_level {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.tabs #weathers .weather .wind_level strong {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.tabs #weathers .weather .wind_level span {
+  height: 26px;
+  line-height: 26px;
+  font-size: 26px;
+  color: #fff;
+}
+#city {
+  background-color: #ffffff;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-family: serif;
+}

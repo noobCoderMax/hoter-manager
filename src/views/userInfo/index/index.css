@@ -1,0 +1,159 @@
+.right {
+  flex: 5;
+  color: #ffffff;
+  background-color: #ffffff;
+  border: 2px solid #e1e2e5;
+}
+.right .avatar {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100px;
+  color: black;
+  background-color: #ffffff;
+  height: 200px;
+  margin: auto 40px;
+}
+.right .avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid #999;
+}
+.right .avatar img:hover {
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.right .avatar strong {
+  display: block;
+  margin: auto 20px;
+  height: 30px;
+  font-size: 30px;
+}
+.right .avatar .ident {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+  font-size: 16px;
+  background-color: #00a0d8;
+  border-radius: 10px;
+}
+.right .avatar .changeInfo {
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+  font-size: 16px;
+  background-color: #72e4ba;
+  border-radius: 10px;
+}
+.right .avatar .changeInfo:hover {
+  cursor: pointer;
+}
+.right .avatar .toLogin {
+  position: absolute;
+  right: 30px;
+  height: 100pxs;
+  margin-top: 10px;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  font-size: 16px;
+  background-color: #00a0d8;
+  border-radius: 10px;
+}
+.right .avatar .toLogin:hover {
+  cursor: pointer;
+}
+.right .codeSafe .header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+.right .codeSafe .header strong {
+  color: black;
+  font-size: 30px;
+}
+.right .codeSafe .header strong i {
+  color: #23bff2;
+  font-size: 26px;
+}
+.right .codeSafe .header .more {
+  width: 200px;
+  height: 30px;
+  color: black;
+  text-align: center;
+  line-height: 30px;
+  border: 2px solid #999;
+}
+.right .codeSafe .header .more:hover {
+  color: #8bddf8;
+  border-color: #8bddf8;
+  cursor: pointer;
+}
+.right .codeSafe .items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 20px 60px;
+}
+.right .codeSafe .items .item {
+  width: 500px;
+  width: 40%;
+  color: black;
+  margin: 20px;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+.right .codeSafe .items .item .i i {
+  display: inline-block;
+  font-size: 100px;
+  border: 1px solid #00a0d8;
+  color: #00a0d8;
+}
+.right .codeSafe .items .item .r {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin: 0px 36px;
+}
+.right .codeSafe .items .item .r strong {
+  width: 300px;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 5px;
+}
+.right .codeSafe .items .item .r p {
+  color: black;
+  margin-bottom: 5px;
+}
+.right .codeSafe .items .item .r .btn {
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+.right .codeSafe .items .item .r .btn .el-button--primary {
+  background: #22a1d6;
+}
+.right .codeSafe .items .item .r .btn .txt {
+  margin-left: 6px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #00a1d6;
+}
+.right .codeSafe .items .item .r .btn .txt:hover {
+  cursor: pointer;
+}

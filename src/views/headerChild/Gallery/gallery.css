@@ -1,0 +1,44 @@
+.img {
+  width: 100%;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 99;
+}
+.flex {
+  margin: 20px 4px;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.flex .div {
+  width: 490px;
+  position: relative;
+  border: 6px solid white;
+  margin: 10px;
+}
+.flex .div span {
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  left: -10px;
+}
+.pageSelect {
+  padding: 0px;
+  width: 400px;
+  margin: 10px auto;
+}
+#cardFooter {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+#cardFooter div {
+  margin-top: 6px;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: purple;
+}
